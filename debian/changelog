@@ -1,0 +1,17 @@
+python-amqplib (0.6.1-1proposed1) unstable; urgency=low
+
+  * Proposed including wait(timeout)
+
+ -- David Greaves <david@dgreaves.com>  Thu, 08 Jul 2010 12:14:36 +0100
+
+python-amqplib (0.6.1-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Mikhail Gusarov <dottedmag@dottedmag.net>  Fri, 04 Sep 2009 03:52:04 +0700
+
+python-amqplib (0.6-1) unstable; urgency=low
+
+  * Initial release (Closes: #540319)
+
+ -- Mikhail Gusarov <dottedmag@dottedmag.net>  Thu, 27 Aug 2009 14:57:04 +0700

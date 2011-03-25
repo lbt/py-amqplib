@@ -1,0 +1,30 @@
+Format-Specification:
+    http://wiki.debian.org/Proposals/CopyrightFormat?action=recall&rev=196
+Upstream-Maintainer: Barry Pederson <bp@barryp.org>
+Upstream-Source: http://code.google.com/p/py-amqplib/
+Upstream-Name: py-amqplib
+
+Files: *
+Copyright: 2007-2008, Barry Pederson <bp@barryp.org>
+License: LGPL-2.1+
+
+Files: amqplib/client_0_8/serialization.py
+Copyright: 2007, Barry Pederson <bp@barryp.org>
+License: LGPL-2.1+
+
+Files: amqplib/client_0_8/transport.py
+Copyright: 2009, Barry Pederson <bp@barryp.org>
+License: LGPL-2.1+
+
+Files: debian/*
+Copyright: 2009, Mikhail Gusarov <dottedmag@dottedmag.net>
+License: LGPL-2.1+
+
+License: LGPL-2.1+
+    This program is free software; you can redistribute it and/or modify it
+    under the terms of the GNU Lesser General Public License as published by the
+    Free Software Foundation; either version 1, or (at your option) any later
+    version.
+
+    On Debian GNU/Linux systems, the complete text of the GNU Lesser General
+    Public License can be found in `/usr/share/common-licenses/LGPL'.

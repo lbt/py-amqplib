@@ -1,0 +1,21 @@
+Source: python-amqplib
+Section: python
+Priority: optional
+Maintainer: Mikhail Gusarov <dottedmag@dottedmag.net>
+Uploaders: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 7), python-dev (>= 2.3.5-11)
+Build-Depends-Indep: python-support (>= 0.90)
+Standards-Version: 3.8.3
+Homepage: http://barryp.org/software/py-amqplib/
+Vcs-Svn: svn://svn.debian.org/python-modules/packages/python-amqplib/trunk/
+Vcs-Browser: http://svn.debian.org/viewsvn/python-modules/packages/python-amqplib/trunk/
+
+Package: python-amqplib
+Architecture: all
+Depends: ${python:Depends}, ${misc:Depends}
+Description: simple non-threaded Python AMQP client library
+ Python client for the Advanced Message Queuing Protocol (AMQP) 0-8, featuring
+ basic messaging functionality and SSL support.
+ .
+ python-amqplib provides synchronous API unlike other (event-driven)
+ implementations.
